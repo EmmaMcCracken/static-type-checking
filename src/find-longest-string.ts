@@ -12,7 +12,7 @@ function findLongestString(stringArr: string[]): string {
       longestString = str;
     }
   }
-  return longestString;
+  return longestString.length;
 }
 
 // export function so it can be used in test file
